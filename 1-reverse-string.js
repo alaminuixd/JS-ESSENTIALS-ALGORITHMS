@@ -10,7 +10,7 @@
 function revBasic1(elm) {
   let reversed = "";
   for (let i = 0; i < elm.length; i++) {
-    // Note: "for of" loop is a better & cleaner solution for this.
+    //* Note: "for of" Array loop is a better & cleaner solution for this.
     reversed = elm[i] + reversed;
   }
   return reversed;
